@@ -1,0 +1,135 @@
+.footer {
+  background: var(--background-color-dark);
+  color: var(--text-color-secondary);
+  padding: 3rem 4rem 2rem;
+  margin-top: auto; /* Pushes footer to the bottom */
+  border-top: 1px solid var(--glow-border-color);
+  font-family: 'Poppins', sans-serif;
+  animation: fadeInUp 1s ease-out;
+}
+
+.footer-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo-section {
+  text-align: left;
+}
+
+.footer-logo-main {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-glow-color);
+  display: block;
+}
+
+.footer-logo-sub {
+  font-size: 0.9rem;
+  color: var(--text-color-secondary);
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-link {
+  color: var(--text-color-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--accent-color);
+  text-shadow: 0 0 5px var(--accent-color-faded);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  color: var(--text-color-secondary);
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--glow-border-color);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--background-color-dark);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 10px var(--accent-color-faded);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--glow-border-color-faded);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin: 0.5rem 0;
+}
+
+.malayalam-quote {
+  font-style: italic;
+  color: var(--primary-glow-color);
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 2rem;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo-section {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .footer-link {
+    padding: 0.5rem;
+  }
+}
+
+/* Keyframe animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

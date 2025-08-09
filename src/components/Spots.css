@@ -1,0 +1,128 @@
+.spots-page {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.spots-hero {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.spots-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  z-index: 3;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.spots-subtitle {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 3;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.spots-grid-container {
+  padding: 80px 10%;
+}
+
+.spots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.spot-card {
+  background: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.spot-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(255, 223, 186, 0.2);
+}
+
+.spot-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.spot-info {
+  padding: 25px;
+  text-align: left;
+}
+
+.spot-name {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.spot-type {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 10px;
+}
+
+.spot-location {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+.spot-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
+
+.spot-rating {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4CAF50;
+}
+
+.spot-distance {
+  font-size: 1rem;
+  color: #a0a0a0;
+  background-color: #2a2a2a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
