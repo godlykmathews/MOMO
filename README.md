@@ -10,7 +10,7 @@
 
 ### Team Members
 - Member 1: Godly K Mathews - CE Kallooppara 
-- Member 2: Emmanuel Mathew vinod - CE Kallooppara 
+- Member 2: Emmanuel Mathew Vinod - CE Kallooppara 
 
 ### Project Description
 “പോത്തിന്റെ ചെവിയിൽ വേദം ഓതിട്ട് കാര്യം ഇല്ല” — But We Went Ahead and Built It Anyway
@@ -33,77 +33,69 @@ Welcome to the future. It moos.
 A fully-loaded digital space for buffaloes, cows, oxen, and bulls.
 
 ### The Solution (that nobody asked for)
-A fully functional web application that no one asked for. Cattle Matrimony, Cattle Translator, Cattle LinkedIn, Cattle Political Party, Cattle Spot Finder
+A fully functional web application that no one asked for. Cattle Matrimony, Cattle Translator, Cattle LinkedIn, Cattle Political Party, and a Nearby Spot Finder.
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- React
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern frontend build tool that provides a faster and leaner development experience.
+- **JavaScript (ES6+)**: The core programming language for the application.
+- **CSS3 & HTML5**: For styling and structuring the application, featuring a modern dark theme, animations, and responsive design.
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/MOMO.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd MOMO
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
 # Run
-[commands]
+To start the development server, run the following command:
+```sh
+npm run dev
+```
+The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Homepage Screenshot]
+*Caption: TRANSLATOR*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Translator Screenshot](Add screenshot 2 here with proper name)
+*Caption: The professional Human-to-Buffalo translator interface.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Matrimonial Screenshot](Add screenshot 3 here with proper name)
+*Caption: The elegant and modern Cattle Matrimonial section.*
+
+![Spots Screenshot](Add screenshot 4 here with proper name)
+*Caption: The Zomato-style "Nearby Grass Fields & Mud Baths" page.*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+*Caption: A component architecture diagram showing the relationship between the main React components.*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
-*Explain what the video demonstrates*
+*Explain what the video demonstrates: A walkthrough of the main features, including the translator, matrimonial registration, and spot finder.*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- **Godly K Mathews**: Lead Development
+- **Emmanuel Mathew Vinod**: Content, Documentation 
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
