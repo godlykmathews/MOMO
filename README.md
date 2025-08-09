@@ -80,17 +80,15 @@ For Software:
 
 ![party Screenshot](party.png)
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Caption: A component architecture diagram showing the relationship between the main React components.*
+
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[Presentation Video](https://drive.google.com/file/d/1fLKouEQ0sfuDKrbp--X1AdMmRD7j66pa/view?usp=sharing)
+
 *Explain what the video demonstrates: A walkthrough of the main features, including the translator, matrimonial registration, and spot finder.*
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
 - **Godly K Mathews**: Lead Development
