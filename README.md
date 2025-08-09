@@ -70,13 +70,10 @@ For Software:
 
 # Screenshots (Add at least 3)
 ![Homepage Screenshot](home.png)
-*Caption: Home*
 
 ![Translator Screenshot](translator.png)
-*Caption: The professional Human-to-Buffalo translator interface.*
 
 ![Matrimonial Screenshot](matrimony.png)
-*Caption: The elegant and modern Cattle Matrimonial section.*
 
 ![party Screenshot](party.png)
 
@@ -85,8 +82,6 @@ For Software:
 ### Project Demo
 # Video
 [Presentation Video](https://drive.google.com/file/d/1fLKouEQ0sfuDKrbp--X1AdMmRD7j66pa/view?usp=sharing)
-
-*Explain what the video demonstrates: A walkthrough of the main features, including the translator, matrimonial registration, and spot finder.*
 
 
 
