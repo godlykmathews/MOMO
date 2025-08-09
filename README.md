@@ -66,9 +66,77 @@ npm run dev
 The application will be available at `http://localhost:5173` (or another port if 5173 is busy).
 
 ### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
+#### Software Architecture
+The MoMo platform is built using modern web technologies with a focus on performance, scalability, and user experience:
+
+**Frontend Framework**: React 18 with Vite for fast development and optimized builds
+**State Management**: React hooks for local component state
+**Styling**: CSS3 with custom animations and responsive design patterns
+**Audio Processing**: Web Audio API and Speech Recognition API integration
+**Build Tool**: Vite for hot module replacement and efficient bundling
+
+#### Core Components
+- **TranslatorInterface**: Main translation engine with real-time buffalo-human language conversion
+- **AudioRecorder**: Voice input capture with noise reduction and audio processing
+- **LanguageToggle**: Seamless switching between human and buffalo communication modes
+- **ResponsiveLayout**: Mobile-first design ensuring compatibility across all devices
+
+#### Translation Algorithm
+The buffalo translation system uses a proprietary mapping algorithm that converts:
+- Human text/speech → Buffalo sounds (moo variations, snorts, huffs)
+- Buffalo vocalizations → Human-readable interpretations
+- Contextual understanding based on bovine behavioral patterns
+
+#### Performance Optimizations
+- Lazy loading for component chunks
+- Audio compression for faster voice processing
+- Responsive image optimization
+- Cached translation results for improved speed
+
+#### Browser Compatibility
+Supports all modern browsers with graceful degradation for older versions. Progressive Web App (PWA) features ensure offline functionality for basic translation services.
+
+## Architecture Overview
+The MoMo application follows a component-based React architecture with the following structure:
+
+```
+src/
+├── components/           # Reusable UI components
+│   ├── Header.jsx       # Navigation and branding
+│   ├── Footer.jsx       # Site footer with links
+│   ├── TranslatorInterface.jsx  # Buffalo-Human translator
+│   ├── LanguageToggle.jsx       # Language switching
+│   ├── AudioRecorder.jsx        # Voice input/output
+│   ├── TextInput.jsx           # Text input handling
+│   └── TranslationOutput.jsx   # Translation results
+├── pages/               # Main application pages
+│   ├── HomePage.jsx     # Landing page
+│   ├── Translator.jsx   # Translation service
+│   ├── Matrimony.jsx    # Cattle matchmaking
+│   ├── CattledIn.jsx    # Professional network
+│   └── PoliticalParty.jsx # Cattle politics
+├── utils/               # Utility functions
+│   └── buffaloAlphabet.js # Translation logic
+└── styles/              # CSS styling files
+```
+
+## Key Features
+- **Responsive Design**: Mobile-first approach with cross-device compatibility
+- **Dark Theme UI**: Modern aesthetic with smooth animations
+- **Audio Integration**: Voice input/output for translations
+- **Real-time Translation**: Instant Buffalo-Human language conversion
+- **Component Architecture**: Modular, reusable React components
+- **GPS Integration**: Location-based services for nearby spots
+
+## API Integration
+The application uses browser APIs for:
+- **Speech Recognition**: For voice input capture
+- **Text-to-Speech**: For audio translation output
+- **Geolocation**: For nearby spot finder functionality
+
+
+# Screenshots
 ![Homepage Screenshot](home.png)
 
 ![Translator Screenshot](translator.png)
