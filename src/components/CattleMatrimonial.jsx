@@ -15,7 +15,7 @@ const CattleMatrimonial = () => {
     maritalStatus: 'Virgin/Bachelor',
     accommodation: '',
     diet: '',
-    photo: 'public/img/male cow.jpg'
+    photo: '/img/male cow.jpg'
   })
 
   // Prevent body scroll when modal is open
@@ -71,7 +71,7 @@ const CattleMatrimonial = () => {
       maritalStatus: 'Virgin/Bachelor',
       accommodation: '',
       diet: '',
-      photo: 'public/img/kullan breed.jpg'
+      photo: '/img/kullan breed.jpg'
     })
     // Prevent any scrolling after form submission
     return false
@@ -112,7 +112,7 @@ const CattleMatrimonial = () => {
       dailyDiet: "30 okka grass + protein supplements",
       hobbies: "Weight lifting (pulling carts), intimidating farmers, philosophical debates",
       lookingFor: "Beautiful, homely cow who can manage household (shed) efficiently",
-      photo: "public/img/kala.avif",
+      photo: "/img/kala.avif",
       location: "Pathanamthitta",
       education: "Self-taught in agricultural operations",
       salary: "₹1000/day (field work)",
@@ -132,7 +132,7 @@ const CattleMatrimonial = () => {
       dailyDiet: "35 okka green fodder + jaggery treats",
       hobbies: "Swimming, mud baths, scaring children, weather prediction",
       lookingFor: "Understanding buffalo who respects my past",
-      photo: "public/img/pothu 3.avif",
+      photo: "/img/pothu 3.avif",
       location: "Alapuzha",
       education: "Expert in traditional farming methods",
       salary: "₹800/day (milk + curd business)",
@@ -152,7 +152,7 @@ const CattleMatrimonial = () => {
       dailyDiet: "20 okka light diet (doctor's orders)",
       hobbies: "Telling stories to young calves, complaining about modern farming",
       lookingFor: "Mature cow/buffalo for companionship in old age",
-      photo: "public/img/pothu 2.avif",
+      photo: "/img/pothu 2.avif",
       location: "Kottayam",
       education: "40 years field experience",
       salary: "₹200/day (pension)",
@@ -172,7 +172,7 @@ const CattleMatrimonial = () => {
       dailyDiet: "Scientific diet plan + vitamins",
       hobbies: "Modeling for dairy advertisements, yoga, organic farming",
       lookingFor: "Progressive bull who supports working cows",
-      photo: "public/img/cow widow.jpeg",
+      photo: " /img/cow widow.jpeg",
       location: "Pune, Maharashtra",
       education: "Modern dairy management course",
       salary: "₹600/day (brand ambassador)",

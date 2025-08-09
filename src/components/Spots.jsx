@@ -9,7 +9,7 @@ const spots = [
     location: "Kuttanad, Kerala",
     rating: 4.8,
     distance: "2 km away",
-    image: "https://www.google.com/imgres?q=green%20meadows%20in%20kerala&imgurl=https%3A%2F%2Fwww.ktexplorer.com%2Fbanner%2Fpost%2F1578200058-dc15c5390bc4e1fea9b9169520152258.jpg&imgrefurl=https%3A%2F%2Fwww.ktexplorer.com%2Fpost%2Fgreen-meadows-of-vagamon&docid=V_bM4zWfQLDvOM&tbnid=y3B8VR0DPx6UOM&vet=12ahUKEwiNjsfbvP2OAxWvSGwGHfAmIFAQM3oECBgQAA..i&w=620&h=330&hcb=2&ved=2ahUKEwiNjsfbvP2OAxWvSGwGHfAmIFAQM3oECBgQAA"
+    image: "https://r1imghtlak.mmtcdn.com/88de6d1a-e610-4258-a283-d3e2d4e96175.jpg"
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const spots = [
     location: "Alappuzha, Kerala",
     rating: 4.6,
     distance: "12 km away",
-    image: "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/78/Sodden_field_beside_Hall_Road_-_geograph.org.uk_-_3834296.jpg"
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const spots = [
     location: "Thekkady, Kerala",
     rating: 4.7,
     distance: "20 km away",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdavidspasture.com%2Fblog%2Fthe-mud-spa-why-pigs-love-to-wallow&psig=AOvVaw3A1EP27NxOMJBq2R3gJRCO&ust=1754820361749000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICVr7W9_Y4DFQAAAAAdAAAAABAV"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Thekkady.jpg/1100px-Thekkady.jpg"
   }
 ];
 

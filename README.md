@@ -69,17 +69,16 @@ The application will be available at `http://localhost:5173` (or another port if
 For Software:
 
 # Screenshots (Add at least 3)
-![Homepage Screenshot]
-*Caption: TRANSLATOR*
+![Homepage Screenshot](home.png)
+*Caption: Home*
 
-![Translator Screenshot](Add screenshot 2 here with proper name)
+![Translator Screenshot](translator.png)
 *Caption: The professional Human-to-Buffalo translator interface.*
 
-![Matrimonial Screenshot](Add screenshot 3 here with proper name)
+![Matrimonial Screenshot](matrimony.png)
 *Caption: The elegant and modern Cattle Matrimonial section.*
 
-![Spots Screenshot](Add screenshot 4 here with proper name)
-*Caption: The Zomato-style "Nearby Grass Fields & Mud Baths" page.*
+![party Screenshot](party.png)
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
